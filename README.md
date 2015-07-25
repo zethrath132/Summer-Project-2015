@@ -7,8 +7,8 @@ Summer Project Game:  Dating Simulator
 #include "game.h"
 
 int GameData::Setup() /**
-					  *I set the background to a resized background picture in line 27.  Only real change I made to this from the original code.
-					  */
+		       *I set the background to a resized background picture in line 27.  Only real change I made to this                            from the original code.
+			*/
 {
 	if(SDL_Init( SDL_INIT_EVERYTHING) < 0)
 	{
